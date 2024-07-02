@@ -1,0 +1,21 @@
+<script>
+    let a = 15;
+    let b =[ 19, 14, 15, 25, 85, 47, 54]
+    console.log(b.length)
+    
+    let len = b.length;
+    for(let i=0; i<len; i++){
+        console.log("b["+ i +"] =" +b[i])
+    
+    }
+    console.log("-----------")
+
+    for(let i=0; i<len; i++){
+        b[i] = b[i] + 100;
+        if(b[i]>130)
+        b[i] = 130;
+
+        console.log("b["+ i + "] = " +b[i])
+        
+    }
+</script>
